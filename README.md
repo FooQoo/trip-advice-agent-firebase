@@ -13,5 +13,5 @@ $ firebase emulators:start
 ```bash
 $ firebase deploy --only functions
 
-$ curl -XGET "${HOST}/v2/projects/ai-agent-hackathon-fc785/locations/us-central1/addmessage?text=uppercaseme"
+$ curl -XGET "${HOST}/v2/projects/ai-agent-hackathon/locations/us-central1/addmessage?text=uppercaseme"
 ```
